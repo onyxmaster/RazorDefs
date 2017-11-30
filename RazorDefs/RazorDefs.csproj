@@ -101,6 +101,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ExternalTypes2\ExternalTypes2.csproj">
+      <Project>{eadae137-bcfe-4942-b6f0-f02874080db0}</Project>
+      <Name>ExternalTypes2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ExternalTypes\ExternalTypes.csproj">
       <Project>{b80d6dd4-0d55-464d-9eb5-9ea0bccee53f}</Project>
       <Name>ExternalTypes</Name>
